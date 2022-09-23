@@ -1,0 +1,81 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+html, body {
+    width: 100%;
+    height: 100%;
+}
+
+body {
+    background-image: url(./img/pokémon\ .jpg) ;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+}
+
+.container {
+    border: 1px solid black;
+    border-radius: 10px;
+    padding: 20px;
+    background: red;
+    max-width: 450px;
+    min-height: 300px;
+}
+
+.logo, #imgPokemon {
+    text-align: center;
+}
+
+.logo img {
+    width: 90%;
+}
+
+.group-form {
+    padding: 5px 0;
+}
+
+.group-form label{
+    font-weight: 900;
+    color: orange;
+}
+
+.group-form input{
+    width: 100%;
+    padding: 10px;
+    border: 1px solid #ccc;
+    text-transform: uppercase;
+    border-radius: 5px;
+    margin: 5px 0;
+}
+
+.group-form input[type=submit]{
+    background: #1B356E;
+    font-weight: 900;
+    font-size: 1rem;
+    color: white;
+    letter-spacing: 1px;
+    cursor: pointer;
+}
+
+#imgPokemon img {
+    width: 90px;
+    border: 1px solid #333;
+    border-radius: 50%;
+    box-shadow: 5px 5px 5px rgba(0, 0, 0,0.5);
+    background-color: black;
+}
+
+#content {
+    font-family: monospace;
+    padding:10px;
+    background: black;
+    border-radius: 5px;
+    color: whitesmoke;
+    font-weight: 500;
+    font-size: 1rem;
+    text-align: center;
+}
